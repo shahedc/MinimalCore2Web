@@ -12,6 +12,7 @@ namespace MinimalCore2Web.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.Hello = "Hello";
             return View();
         }
 
