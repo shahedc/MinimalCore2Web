@@ -78,11 +78,9 @@ namespace MinimalCore2Web.Tests
         //[Theory(Skip="this is broken")]
         [Theory]
         [InlineData(1, 0)]
-        //[InlineData(22, 12)]
         public void TestDivideByZero(int x, int y)
         {
             var cs = new CalcService();
-            //var actualResult = cs.UnsafeDivide(x, y);
 
             Exception ex = Assert
                 .Throws<DivideByZeroException>(() => cs.UnsafeDivide(x, y));
