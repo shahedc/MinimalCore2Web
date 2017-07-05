@@ -13,6 +13,9 @@ namespace MinimalCore2Web.Controllers
     {
         public IExternalService ExternalService { get; set; }
 
+        public CalcController()
+        {
+        }
         public CalcController(IExternalService externalService)
         {
             ExternalService = externalService;
