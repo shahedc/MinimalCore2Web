@@ -39,6 +39,7 @@ namespace MinimalCore2Web
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
+            services.AddTransient<IExternalService, ExternalService>();
 
             services.AddMvc();
         }
