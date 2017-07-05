@@ -9,6 +9,7 @@ namespace MinimalCore2Web.Tests
         public void TestMethod()
         {
             bool boolResult = true;
+            Assert.True(boolResult);
         }
     }
 }
