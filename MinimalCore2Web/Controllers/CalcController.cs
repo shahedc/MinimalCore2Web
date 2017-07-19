@@ -16,10 +16,10 @@ namespace MinimalCore2Web.Controllers
         public CalcController()
         {
         }
-        public CalcController(IExternalService externalService)
-        {
-            ExternalService = externalService;
-        }
+        //public CalcController(IExternalService externalService)
+        //{
+        //    ExternalService = externalService;
+        //}
 
         // GET: Calc
         public ActionResult Index()
