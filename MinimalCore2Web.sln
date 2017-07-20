@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.26621.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalCore2Web", "MinimalCore2Web\MinimalCore2Web.csproj", "{5E7EB44E-5CAA-4A7F-B9A7-E8E76B0BC918}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalCore2Web.Tests", "MinimalCore2Web.Tests\MinimalCore2Web.Tests.csproj", "{C2D723B9-E946-4EAE-8724-584982474874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalCore2Web.Tests", "MinimalCore2Web.Tests\MinimalCore2Web.Tests.csproj", "{C2D723B9-E946-4EAE-8724-584982474874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDbIntegration", "WebDbIntegration\WebDbIntegration.csproj", "{BCF0F513-7443-4433-A5B7-3A38DE90D218}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C2D723B9-E946-4EAE-8724-584982474874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2D723B9-E946-4EAE-8724-584982474874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2D723B9-E946-4EAE-8724-584982474874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF0F513-7443-4433-A5B7-3A38DE90D218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF0F513-7443-4433-A5B7-3A38DE90D218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF0F513-7443-4433-A5B7-3A38DE90D218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF0F513-7443-4433-A5B7-3A38DE90D218}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
